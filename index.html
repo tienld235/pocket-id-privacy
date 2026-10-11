@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Pocket ID</title>
+<style>
+  :root{
+    --ink:#1B1F3B; --muted:#6B7090; --line:#E3E5F2; --card:#FFFFFF; --bg:#F6F7FB;
+    --top1:#4F46E5; --top2:#8B5CF6; --accent:#4F46E5;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  header{background:linear-gradient(135deg,var(--top1),var(--top2)); padding:36px 20px 44px; text-align:center}
+  header svg{width:64px; height:64px}
+  header h1{margin:8px 0 4px; font-size:28px; letter-spacing:.5px; color:#FFFFFF}
+  header p{margin:0; color:#E6E4FF; font-size:14px}
+  main{max-width:760px; margin:-24px auto 60px; padding:0 18px}
+  /* link dài (https://policies.google.com/…) không có chỗ ngắt → đẩy cả thẻ rộng quá màn điện thoại */
+  p, a{overflow-wrap:anywhere}
+  .card{background:var(--card); border-radius:16px; padding:30px 28px; box-shadow:0 2px 18px rgba(27,31,74,.10)}
+  h2{font-size:20px; margin:34px 0 10px; padding-top:20px; border-top:1px solid var(--line)}
+  p,li{color:#33375A}
+  a{color:var(--accent)}
+  .lead{background:#EEF0FF; border-left:4px solid var(--accent); padding:14px 16px; border-radius:0 10px 10px 0; margin:0 0 6px}
+  .updated{color:var(--muted); font-size:13px; margin:0 0 6px}
+  footer{text-align:center; color:var(--muted); font-size:13px; padding:26px 18px 40px}
+
+  /*  Thanh chọn ngôn ngữ chỉ có tác dụng khi có JavaScript nên mặc định ẩn.
+      Không có JS thì cả năm bản vẫn nằm nguyên trong trang, cuộn xuống là đọc
+      được — nội dung không bao giờ biến mất vì script không chạy.  */
+  .tabs{display:none; flex-wrap:wrap; gap:8px; justify-content:center; margin:0 0 22px}
+  .js .tabs{display:flex}
+  .tab{font:inherit; font-size:14px; font-weight:600; cursor:pointer; padding:8px 14px;
+    border-radius:999px; border:1px solid var(--line); background:#fff; color:#3D4266}
+  .tab:hover{border-color:var(--accent)}
+  .tab.on{background:#EEF0FF; border-color:var(--accent); color:var(--ink)}
+  .tab:focus-visible{outline:3px solid var(--accent); outline-offset:2px}
+  .policy + .policy{border-top:1px solid var(--line); margin-top:36px; padding-top:10px}
+  .js .policy + .policy{border-top:0; margin-top:0; padding-top:0}
+  [hidden]{display:none !important}
+</style>
+</head>
+<body>
+
+<header>
+  <svg viewBox="0 0 100 100" aria-hidden="true">
+    <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F46E5"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
+    <rect width="100" height="100" rx="24" fill="url(#lg)" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="2"/>
+    <g transform="rotate(-10 50 40)">
+      <rect x="31" y="14" width="38" height="48" rx="5" fill="#FFFFFF"/>
+      <rect x="35" y="18" width="30" height="34" rx="2.5" fill="#DCE6FF"/>
+      <circle cx="50" cy="31" r="6.2" fill="#4F46E5"/>
+      <path d="M39 52 C40 44 44.5 41 50 41 C55.5 41 60 44 61 52 Z" fill="#4F46E5"/>
+    </g>
+    <path d="M20 44 H80 V70 C80 79 74 85 65 85 H35 C26 85 20 79 20 70 Z" fill="#FFFFFF" fill-opacity=".97"/>
+    <path d="M25 49 H75 V69 C75 75.5 70.5 80 64 80 H36 C29.5 80 25 75.5 25 69 Z" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="3.2 3"/>
+    <path d="M43 62 l5 5 9-10" fill="none" stroke="#4F46E5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <h1>Pocket ID</h1>
+  <p>Privacy Policy</p>
+</header>
+
+<main>
+<div class="card">
+
+  <div class="tabs">
+    <button type="button" class="tab" data-lang="en">🇬🇧 English</button>
+    <button type="button" class="tab" data-lang="vi">🇻🇳 Tiếng Việt</button>
+    <button type="button" class="tab" data-lang="es">🇪🇸 Español</button>
+    <button type="button" class="tab" data-lang="pt">🇧🇷 Português</button>
+    <button type="button" class="tab" data-lang="id">🇮🇩 Bahasa Indonesia</button>
+  </div>
+
+  <section class="policy" data-lang="en" lang="en">
+    <p class="updated">Last updated: 12 October 2026</p>
+    <p class="lead">Pocket ID makes ID and passport photos on your phone. We do not ask you to create an account, and we do not collect your name, email address, phone number or location. Google AdMob, which shows the ads, does collect some data — see Advertising below.</p>
+    <h2>Your photos stay on your phone</h2>
+    <p>The camera is used only to take your photo. Removing the background, checking the photo, AI enhance (which only adjusts light and colour) and making the print sheet all happen on your device; your photos are never uploaded to us or to anyone else. A photo is saved to your gallery (Pictures/Pocket ID) only when you tap Save, and you can delete it there at any time. Working copies are kept in the app's temporary storage and are deleted when you start a new photo or uninstall the app.</p>
+    <h2>Data stored on your device</h2>
+    <p>The app remembers your chosen photo type, background, language and units, and how many photos you have saved. This is saved only on your phone. Uninstalling the app deletes it. We never receive a copy.</p>
+    <h2>Permissions</h2>
+    <p>Camera: to take your photo. Storage (only on Android 9 and older): to save the photo to your gallery. Choosing a photo from your gallery uses the system photo picker, so the app cannot see your other photos.</p>
+    <h2>Advertising</h2>
+    <p>The app shows ads through Google AdMob, such as a banner at the bottom of some screens, a full-screen ad when you open the app or after a photo is processed, and a short ad you can choose to watch before saving a photo or using AI enhance. To serve ads, Google may collect your device's advertising ID and technical information about your device. This is handled by Google, not by us. You can reset or delete your advertising ID in Android Settings → Privacy → Ads. Google's policy: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>What Google may collect</h2>
+    <p>An advertising identifier and app set ID (resettable IDs, not your name); your IP address, used to estimate your approximate location; app interactions, such as app launches, taps and ad views; and diagnostic and device information, such as device type, operating system version, app launch time and hang rate. Google uses this data to show and measure ads, for analytics and to prevent fraud, and it is sent over encrypted connections.</p>
+    <h2>Users in Europe</h2>
+    <p>If you are in the European Economic Area, the UK or Switzerland, the app first asks for your consent (using Google's consent form) before your data is used for personalised ads. You can change your choice at any time in Settings → Ad privacy choices. If you do not consent, you may still see ads, but they will not be personalised.</p>
+    <h2>Data security</h2>
+    <p>Pocket ID has no server and no account, so we never receive or store your photos or your data anywhere. Your settings and working copies are kept in the app's private storage on your device, which other apps cannot read. The advertising data described above is collected and sent by Google's AdMob SDK over encrypted (HTTPS) connections and handled under Google's own privacy policy.</p>
+    <h2>Data retention and deletion</h2>
+    <p>Working copies are deleted when you start a new photo. Your settings stay on your device until you uninstall the app or clear its data in your phone's settings; either one deletes them immediately. Photos you saved stay in your gallery until you delete them there. We hold no copy that would need deleting.</p>
+    <h2>Children</h2>
+    <p>This app is rated for users 13 and older and is not directed at children.</p>
+    <h2>Changes</h2>
+    <p>If this policy changes, we will update this page and the date above.</p>
+    <h2>Contact</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+  <section class="policy" data-lang="vi" lang="vi">
+    <p class="updated">Cập nhật: 12/10/2026</p>
+    <p class="lead">Pocket ID làm ảnh thẻ, ảnh hộ chiếu ngay trên điện thoại của bạn. Chúng tôi không yêu cầu bạn tạo tài khoản và không thu thập tên, email, số điện thoại hay vị trí của bạn. Riêng Google AdMob (bên hiện quảng cáo) có thu thập một số dữ liệu — xem mục Quảng cáo bên dưới.</p>
+    <h2>Ảnh của bạn chỉ nằm trên máy bạn</h2>
+    <p>Máy ảnh chỉ dùng để chụp ảnh của bạn. Việc tách nền, kiểm tra ảnh, Làm đẹp AI (chỉ chỉnh sáng và màu) và xếp tờ in đều làm ngay trên điện thoại; ảnh của bạn không bao giờ được tải lên cho chúng tôi hay bất kỳ ai. Ảnh chỉ được lưu vào Thư viện ảnh (Pictures/Pocket ID) khi bạn bấm Lưu, và bạn có thể xoá ở đó bất cứ lúc nào. Bản nháp trong lúc làm nằm ở bộ nhớ tạm của ứng dụng và bị xoá khi bạn làm ảnh mới hoặc gỡ ứng dụng.</p>
+    <h2>Dữ liệu lưu trong máy bạn</h2>
+    <p>Ứng dụng nhớ loại ảnh, màu nền, ngôn ngữ, đơn vị bạn đã chọn và số ảnh bạn đã lưu. Những thứ này chỉ được lưu trong điện thoại của bạn. Gỡ ứng dụng là mất. Chúng tôi không nhận được bản sao nào.</p>
+    <h2>Quyền truy cập</h2>
+    <p>Máy ảnh: để chụp ảnh của bạn. Bộ nhớ (chỉ trên Android 9 trở xuống): để lưu ảnh vào Thư viện. Chọn ảnh từ thư viện dùng bộ chọn ảnh của hệ thống, nên ứng dụng không thấy được các ảnh khác của bạn.</p>
+    <h2>Quảng cáo</h2>
+    <p>Ứng dụng hiện quảng cáo qua Google AdMob, như banner ở đáy một số màn, quảng cáo toàn màn hình khi mở ứng dụng hoặc sau khi xử lý xong một ảnh, và một quảng cáo ngắn bạn có thể chọn xem trước khi lưu ảnh hoặc dùng Làm đẹp AI. Để phục vụ quảng cáo, Google có thể thu thập mã quảng cáo của thiết bị và thông tin kỹ thuật về máy. Phần này do Google xử lý, không phải chúng tôi. Bạn có thể đặt lại hoặc xoá mã quảng cáo trong Cài đặt Android → Quyền riêng tư → Quảng cáo. Chính sách của Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>Google có thể thu thập gì</h2>
+    <p>Mã nhận dạng quảng cáo và mã nhóm ứng dụng (mã đặt lại được, không phải tên bạn); địa chỉ IP, dùng để đoán vị trí gần đúng của bạn; tương tác với ứng dụng, như lượt mở ứng dụng, lượt chạm và lượt xem quảng cáo; và thông tin chẩn đoán và thiết bị, như loại máy, phiên bản hệ điều hành, thời gian mở ứng dụng và tình trạng treo. Google dùng dữ liệu này để hiện và đo lường quảng cáo, để phân tích và để chống gian lận; dữ liệu được gửi qua kết nối mã hoá.</p>
+    <h2>Người dùng ở châu Âu</h2>
+    <p>Nếu bạn ở Khu vực Kinh tế Châu Âu, Vương quốc Anh hoặc Thuỵ Sĩ, ứng dụng sẽ hỏi bạn đồng ý trước (bằng bảng hỏi của Google) rồi mới dùng dữ liệu cho quảng cáo cá nhân hoá. Bạn có thể đổi lựa chọn bất cứ lúc nào trong Cài đặt → Tuỳ chọn quyền riêng tư quảng cáo. Nếu bạn không đồng ý, bạn vẫn có thể thấy quảng cáo nhưng không được cá nhân hoá.</p>
+    <h2>Bảo mật dữ liệu</h2>
+    <p>Pocket ID không có máy chủ và không có tài khoản, nên chúng tôi không bao giờ nhận hay lưu ảnh và dữ liệu của bạn ở bất kỳ đâu. Cài đặt và bản nháp nằm trong vùng lưu trữ riêng của ứng dụng trên máy bạn, ứng dụng khác không đọc được. Dữ liệu quảng cáo nói ở trên do bộ AdMob của Google thu thập và gửi qua kết nối mã hoá (HTTPS), và được xử lý theo chính sách quyền riêng tư của Google.</p>
+    <h2>Thời gian lưu và cách xoá</h2>
+    <p>Bản nháp bị xoá khi bạn làm ảnh mới. Cài đặt nằm trên máy bạn cho tới khi bạn gỡ ứng dụng hoặc xoá dữ liệu ứng dụng trong cài đặt điện thoại; làm cách nào cũng xoá ngay. Ảnh bạn đã lưu nằm trong Thư viện ảnh cho tới khi bạn tự xoá ở đó. Chúng tôi không giữ bản sao nào cần xoá.</p>
+    <h2>Trẻ em</h2>
+    <p>Ứng dụng dành cho người dùng từ 13 tuổi trở lên và không nhắm tới trẻ em.</p>
+    <h2>Thay đổi</h2>
+    <p>Nếu chính sách này thay đổi, chúng tôi sẽ cập nhật trang này và ngày ở trên.</p>
+    <h2>Liên hệ</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+  <section class="policy" data-lang="es" lang="es">
+    <p class="updated">Última actualización: 12 de octubre de 2026</p>
+    <p class="lead">Pocket ID crea fotos de carné y de pasaporte en tu teléfono. No te pedimos crear una cuenta y no recogemos tu nombre, correo electrónico, número de teléfono ni ubicación. Google AdMob, que muestra los anuncios, sí recoge algunos datos: consulta Publicidad más abajo.</p>
+    <h2>Tus fotos se quedan en tu teléfono</h2>
+    <p>La cámara se usa solo para hacer tu foto. Quitar el fondo, revisar la foto, la función «Mejorar con IA» (que solo ajusta la luz y el color) y preparar la hoja de impresión se hace en tu dispositivo; tus fotos nunca se suben ni a nosotros ni a nadie. Una foto se guarda en tu galería (Pictures/Pocket ID) solo cuando pulsas Guardar, y puedes borrarla allí cuando quieras. Las copias de trabajo se guardan en el almacenamiento temporal de la app y se borran al empezar una foto nueva o al desinstalar la app.</p>
+    <h2>Datos guardados en tu dispositivo</h2>
+    <p>La app recuerda el tipo de foto, el fondo, el idioma y las unidades que elegiste, y cuántas fotos has guardado. Esto se guarda solo en tu teléfono. Al desinstalar la app se borra. Nunca recibimos una copia.</p>
+    <h2>Permisos</h2>
+    <p>Cámara: para hacer tu foto. Almacenamiento (solo en Android 9 y anteriores): para guardar la foto en tu galería. Para elegir una foto de tu galería se usa el selector de fotos del sistema, así que la app no puede ver tus otras fotos.</p>
+    <h2>Publicidad</h2>
+    <p>La app muestra anuncios mediante Google AdMob, como un banner en la parte inferior de algunas pantallas, un anuncio a pantalla completa al abrir la app o después de procesar una foto, y un anuncio breve que puedes elegir ver antes de guardar una foto o usar «Mejorar con IA». Para mostrar anuncios, Google puede recoger el identificador de publicidad de tu dispositivo e información técnica sobre él. Esto lo gestiona Google, no nosotros. Puedes restablecer o eliminar tu identificador de publicidad en Ajustes de Android → Privacidad → Anuncios. Política de Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>Qué puede recoger Google</h2>
+    <p>Un identificador de publicidad y el ID de conjunto de apps (identificadores que se pueden restablecer, no tu nombre); tu dirección IP, que se usa para estimar tu ubicación aproximada; interacciones con la app, como aperturas, toques y anuncios vistos; e información de diagnóstico y del dispositivo, como el tipo de dispositivo, la versión del sistema operativo, el tiempo de inicio de la app y los bloqueos. Google usa estos datos para mostrar y medir anuncios, para análisis y para prevenir el fraude, y se envían mediante conexiones cifradas.</p>
+    <h2>Usuarios en Europa</h2>
+    <p>Si estás en el Espacio Económico Europeo, el Reino Unido o Suiza, la app te pide primero tu consentimiento (con el formulario de Google) antes de usar tus datos para anuncios personalizados. Puedes cambiar tu elección en cualquier momento en Ajustes → Privacidad de los anuncios. Si no das tu consentimiento, puedes seguir viendo anuncios, pero no serán personalizados.</p>
+    <h2>Seguridad de los datos</h2>
+    <p>Pocket ID no tiene servidor ni cuentas, así que nunca recibimos ni guardamos tus fotos ni tus datos en ningún sitio. Tus ajustes y las copias de trabajo se guardan en el almacenamiento privado de la app en tu dispositivo, que otras apps no pueden leer. Los datos de publicidad descritos arriba los recoge y envía el SDK de AdMob de Google mediante conexiones cifradas (HTTPS), y se tratan según la política de privacidad de Google.</p>
+    <h2>Conservación y eliminación de datos</h2>
+    <p>Las copias de trabajo se borran al empezar una foto nueva. Tus ajustes se quedan en tu dispositivo hasta que desinstales la app o borres sus datos en los ajustes del teléfono; cualquiera de las dos cosas los elimina al momento. Las fotos que guardaste siguen en tu galería hasta que las borres allí. No tenemos ninguna copia que haya que borrar.</p>
+    <h2>Menores</h2>
+    <p>Esta app está clasificada para usuarios de 13 años o más y no está dirigida a menores.</p>
+    <h2>Cambios</h2>
+    <p>Si esta política cambia, actualizaremos esta página y la fecha de arriba.</p>
+    <h2>Contacto</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+  <section class="policy" data-lang="pt" lang="pt">
+    <p class="updated">Última atualização: 12 de outubro de 2026</p>
+    <p class="lead">O Pocket ID faz fotos 3×4 e de passaporte no seu celular. Não pedimos que você crie uma conta e não coletamos seu nome, e-mail, número de telefone ou localização. O Google AdMob, que exibe os anúncios, coleta alguns dados — veja Publicidade abaixo.</p>
+    <h2>Suas fotos ficam no seu celular</h2>
+    <p>A câmera é usada só para tirar sua foto. Remover o fundo, verificar a foto, a função "Melhorar com IA" (que só ajusta luz e cor) e montar a folha de impressão acontecem no seu aparelho; suas fotos nunca são enviadas para nós nem para ninguém. Uma foto é salva na sua galeria (Pictures/Pocket ID) só quando você toca em Salvar, e você pode apagá-la lá a qualquer momento. As cópias de trabalho ficam no armazenamento temporário do app e são apagadas quando você começa uma foto nova ou desinstala o app.</p>
+    <h2>Dados salvos no seu aparelho</h2>
+    <p>O app lembra o tipo de foto, o fundo, o idioma e as unidades que você escolheu, e quantas fotos você salvou. Isso fica salvo só no seu celular. Desinstalar o app apaga tudo. Nunca recebemos uma cópia.</p>
+    <h2>Permissões</h2>
+    <p>Câmera: para tirar sua foto. Armazenamento (só no Android 9 e anteriores): para salvar a foto na galeria. Para escolher uma foto da galeria, o app usa o seletor de fotos do sistema, então não consegue ver suas outras fotos.</p>
+    <h2>Publicidade</h2>
+    <p>O app exibe anúncios pelo Google AdMob, como um banner na parte de baixo de algumas telas, um anúncio em tela cheia ao abrir o app ou depois que uma foto é processada, e um anúncio curto que você pode escolher assistir antes de salvar uma foto ou usar o "Melhorar com IA". Para exibir anúncios, o Google pode coletar o ID de publicidade do seu aparelho e informações técnicas sobre ele. Isso é feito pelo Google, não por nós. Você pode redefinir ou excluir seu ID de publicidade em Configurações do Android → Privacidade → Anúncios. Política do Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>O que o Google pode coletar</h2>
+    <p>Um identificador de publicidade e o ID do conjunto de apps (IDs redefiníveis, não o seu nome); seu endereço IP, usado para estimar sua localização aproximada; interações com o app, como aberturas, toques e anúncios vistos; e informações de diagnóstico e do aparelho, como tipo de aparelho, versão do sistema, tempo de abertura do app e travamentos. O Google usa esses dados para exibir e medir anúncios, para análises e para prevenir fraudes, e eles são enviados por conexões criptografadas.</p>
+    <h2>Usuários na Europa</h2>
+    <p>Se você está no Espaço Econômico Europeu, no Reino Unido ou na Suíça, o app pede primeiro o seu consentimento (com o formulário do Google) antes de usar seus dados para anúncios personalizados. Você pode mudar sua escolha a qualquer momento em Configurações → Privacidade dos anúncios. Se você não consentir, ainda poderá ver anúncios, mas eles não serão personalizados.</p>
+    <h2>Segurança dos dados</h2>
+    <p>O Pocket ID não tem servidor nem contas, então nunca recebemos nem guardamos suas fotos ou seus dados em lugar nenhum. Suas configurações e as cópias de trabalho ficam no armazenamento privado do app no seu aparelho, que outros apps não conseguem ler. Os dados de publicidade descritos acima são coletados e enviados pelo SDK do AdMob do Google por conexões criptografadas (HTTPS) e tratados conforme a política de privacidade do Google.</p>
+    <h2>Retenção e exclusão de dados</h2>
+    <p>As cópias de trabalho são apagadas quando você começa uma foto nova. Suas configurações ficam no seu aparelho até você desinstalar o app ou limpar os dados dele nas configurações do celular; qualquer um dos dois apaga tudo na hora. As fotos que você salvou continuam na galeria até você apagá-las lá. Não guardamos nenhuma cópia que precise ser apagada.</p>
+    <h2>Menores de idade</h2>
+    <p>Este app é classificado para usuários de 13 anos ou mais e não é direcionado a menores.</p>
+    <h2>Mudanças</h2>
+    <p>Se esta política mudar, atualizaremos esta página e a data acima.</p>
+    <h2>Contato</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+  <section class="policy" data-lang="id" lang="id">
+    <p class="updated">Terakhir diperbarui: 12 Oktober 2026</p>
+    <p class="lead">Pocket ID membuat pas foto dan foto paspor di ponselmu. Kami tidak memintamu membuat akun, dan kami tidak mengumpulkan nama, alamat email, nomor telepon, atau lokasimu. Google AdMob, yang menampilkan iklan, memang mengumpulkan sebagian data — lihat bagian Iklan di bawah.</p>
+    <h2>Fotomu tetap di ponselmu</h2>
+    <p>Kamera hanya dipakai untuk memotretmu. Menghapus latar, memeriksa foto, Percantik AI (yang hanya mengatur cahaya dan warna), dan menyusun lembar cetak semuanya dilakukan di perangkatmu; fotomu tidak pernah diunggah ke kami maupun ke siapa pun. Foto disimpan ke galeri (Pictures/Pocket ID) hanya saat kamu mengetuk Simpan, dan kamu bisa menghapusnya di sana kapan saja. Salinan kerja disimpan di penyimpanan sementara aplikasi dan dihapus saat kamu membuat foto baru atau mencopot aplikasi.</p>
+    <h2>Data yang disimpan di perangkatmu</h2>
+    <p>Aplikasi mengingat jenis foto, latar, bahasa, dan satuan yang kamu pilih, serta berapa foto yang sudah kamu simpan. Data ini hanya disimpan di ponselmu. Mencopot aplikasi akan menghapusnya. Kami tidak pernah menerima salinannya.</p>
+    <h2>Izin</h2>
+    <p>Kamera: untuk memotretmu. Penyimpanan (hanya di Android 9 ke bawah): untuk menyimpan foto ke galeri. Memilih foto dari galeri memakai pemilih foto sistem, jadi aplikasi tidak bisa melihat foto-fotomu yang lain.</p>
+    <h2>Iklan</h2>
+    <p>Aplikasi menampilkan iklan melalui Google AdMob, seperti banner di bagian bawah beberapa layar, iklan layar penuh saat membuka aplikasi atau setelah foto selesai diproses, dan satu iklan singkat yang bisa kamu pilih untuk ditonton sebelum menyimpan foto atau memakai Percantik AI. Untuk menampilkan iklan, Google dapat mengumpulkan ID iklan perangkatmu dan informasi teknis tentang perangkatmu. Ini ditangani oleh Google, bukan oleh kami. Kamu dapat mereset atau menghapus ID iklan di Setelan Android → Privasi → Iklan. Kebijakan Google: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+    <h2>Apa yang mungkin dikumpulkan Google</h2>
+    <p>ID iklan dan ID set aplikasi (ID yang dapat direset, bukan namamu); alamat IP-mu, yang dipakai untuk memperkirakan lokasimu secara kasar; interaksi dengan aplikasi, seperti membuka aplikasi, ketukan, dan iklan yang dilihat; serta informasi diagnostik dan perangkat, seperti jenis perangkat, versi sistem operasi, waktu membuka aplikasi, dan aplikasi yang macet. Google memakai data ini untuk menampilkan dan mengukur iklan, untuk analitik, dan untuk mencegah penipuan, dan data dikirim melalui koneksi terenkripsi.</p>
+    <h2>Pengguna di Eropa</h2>
+    <p>Jika kamu berada di Wilayah Ekonomi Eropa, Inggris, atau Swiss, aplikasi akan meminta persetujuanmu terlebih dahulu (dengan formulir persetujuan Google) sebelum datamu dipakai untuk iklan yang dipersonalisasi. Kamu dapat mengubah pilihan kapan saja di Pengaturan → Pilihan privasi iklan. Jika kamu tidak setuju, kamu tetap dapat melihat iklan, tetapi iklan tersebut tidak dipersonalisasi.</p>
+    <h2>Keamanan data</h2>
+    <p>Pocket ID tidak punya server dan tidak memakai akun, jadi kami tidak pernah menerima atau menyimpan foto maupun datamu di mana pun. Setelan dan salinan kerja disimpan di penyimpanan pribadi aplikasi di perangkatmu, yang tidak bisa dibaca aplikasi lain. Data iklan yang dijelaskan di atas dikumpulkan dan dikirim oleh SDK AdMob dari Google melalui koneksi terenkripsi (HTTPS), dan ditangani sesuai kebijakan privasi Google.</p>
+    <h2>Penyimpanan dan penghapusan data</h2>
+    <p>Salinan kerja dihapus saat kamu membuat foto baru. Setelanmu tetap di perangkat sampai kamu mencopot aplikasi atau menghapus datanya di setelan ponsel; keduanya langsung menghapusnya. Foto yang sudah kamu simpan tetap ada di galeri sampai kamu menghapusnya di sana. Kami tidak menyimpan salinan apa pun yang perlu dihapus.</p>
+    <h2>Anak-anak</h2>
+    <p>Aplikasi ini ditujukan untuk pengguna berusia 13 tahun ke atas dan tidak ditujukan untuk anak-anak.</p>
+    <h2>Perubahan</h2>
+    <p>Jika kebijakan ini berubah, kami akan memperbarui halaman ini dan tanggal di atas.</p>
+    <h2>Kontak</h2>
+    <p>leductien1997123@gmail.com</p>
+  </section>
+
+</div>
+</main>
+
+<footer>Pocket ID · com.tien.pocketid</footer>
+
+<script>
+(function () {
+  var LANGS = ['en', 'vi', 'es', 'pt', 'id'];
+
+  function show(lang) {
+    document.querySelectorAll('.policy').forEach(function (p) {
+      p.hidden = p.getAttribute('data-lang') !== lang;
+    });
+    document.querySelectorAll('.tab').forEach(function (n) {
+      n.classList.toggle('on', n.getAttribute('data-lang') === lang);
+    });
+    document.documentElement.lang = lang;
+    try { history.replaceState(null, '', '#' + lang); } catch (e) {}
+  }
+
+  //  Bật thanh chọn TRƯỚC, ẩn nội dung SAU. Đảo thứ tự mà đoạn dưới lỗi thì
+  //  trang trắng trơn: nội dung đã ẩn mà nút chuyển thì chưa hiện.
+  document.documentElement.className += ' js';
+
+  document.querySelectorAll('.tab').forEach(function (btn) {
+    btn.addEventListener('click', function () { show(btn.getAttribute('data-lang')); });
+  });
+
+  //  Ưu tiên phần neo trên URL (#vi) — app mở link kèm ngôn ngữ đang chọn;
+  //  không có thì lấy theo ngôn ngữ máy. 'in' là mã cũ của tiếng Indonesia.
+  var pick = (location.hash || '').replace('#', '');
+  if (LANGS.indexOf(pick) < 0) {
+    var device = (navigator.language || 'en').slice(0, 2).toLowerCase();
+    if (device === 'in') device = 'id';
+    pick = LANGS.indexOf(device) >= 0 ? device : 'en';
+  }
+  show(pick);
+})();
+</script>
+
+</body>
+</html>
